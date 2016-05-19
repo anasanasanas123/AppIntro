@@ -387,7 +387,7 @@ public abstract class AppIntroBase extends AppCompatActivity implements AppIntro
             } else {
                 setButtonState(nextButton, true);
                 setButtonState(doneButton, false);
-                setButtonState(skipButton, skipButtonEnabled ? true : false);
+                setButtonState(skipButton, skipButtonEnabled);
             }
         } else {
             setButtonState(nextButton, false);
